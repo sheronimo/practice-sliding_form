@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+			integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+
+		<title>Slider Sign In/Sign Up Form</title>
+	</head>
+	<body>
+		<main class="container" id="container">
+			<!-- Sign Up Area -->
+			<div class="form-container signup-container">
+				<form action="#" class="form">
+					<h1 class="form-heading">Create Account</h1>
+					<div class="sns-links">
+						<a href="#" class="sns-link"
+							><i class="fa-brands fa-facebook-f sns-icon"></i
+						></a>
+						<a href="#" class="sns-link"
+							><i class="fa-brands fa-google-plus-g sns-icon"></i
+						></a>
+						<a href="#" class="sns-link"
+							><i class="fa-brands fa-linkedin-in sns-icon"></i
+						></a>
+					</div>
+
+					<span>or use your email for registration</span>
+					<input type="text" class="form-input" placeholder="Name" />
+					<input type="email" class="form-input" placeholder="Email" />
+					<input type="password" class="form-input" placeholder="Password" />
+					<button class="form-btn">Sign Up</button>
+				</form>
+			</div>
+
+			<!-- Sign In Area -->
+			<div class="form-container signin-container">
+				<form action="#" class="form">
+					<h1 class="form-heading">Sign In</h1>
+					<div class="sns-links">
+						<a href="#" class="sns-link"
+							><i class="fa-brands fa-facebook-f sns-icon"></i
+						></a>
+						<a href="#" class="sns-link"
+							><i class="fa-brands fa-google-plus-g sns-icon"></i
+						></a>
+						<a href="#" class="sns-link"
+							><i class="fa-brands fa-linkedin-in sns-icon"></i
+						></a>
+					</div>
+
+					<span>or use your account</span>
+
+					<input type="email" class="form-input" placeholder="Email" />
+					<input type="password" class="form-input" placeholder="Password" />
+					<a href="#" class="forgot-link">Forgot your password?</a>
+					<button class="form-btn">Sign In</button>
+				</form>
+			</div>
+
+			<!-- Overlay -->
+			<div class="overlay-container">
+				<div class="overlay">
+					<!-- Left Side - Sign In -->
+					<div class="overlay-panel overlay-left">
+						<h1 class="overlay-heading">Welcome Back!</h1>
+						<p class="overlay-desc">
+							To keep connected with us please login with your personal info
+						</p>
+						<button class="overlay-btn" id="signIn">Sign In</button>
+					</div>
+
+					<!-- Right Side - Sign Up -->
+					<div class="overlay-panel overlay-right">
+						<h1 class="overlay-heading">Hello, Friend!</h1>
+						<p class="overlay-desc">
+							Enter your personal details and start your journey with us
+						</p>
+						<button class="overlay-btn" id="signUp">Sign In</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="js/main.js"></script>
+	</body>
+</html>
