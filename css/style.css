@@ -52,3 +52,15 @@ h6 {
 	font-size: 0.875rem;
 	margin: 1rem 0;
 }
+
+/* Containers */
+.container {
+	background: hsl(0, 0%, 100%);
+	border-radius: 10px;
+	box-shadow: 0 0.875rem 1.75rem hsla(0, 0%, 0%, 0.15);
+	position: relative;
+	overflow: hidden;
+	width: 48rem;
+	max-width: 100%;
+	min-height: 30rem;
+}
