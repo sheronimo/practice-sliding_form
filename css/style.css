@@ -226,3 +226,8 @@ h6 {
 .right-panel-active .overlay-left {
 	transform: translateX(0%);
 }
+
+/* Right overlay slight slide in */
+.right-panel-active .overlay-right {
+	transform: translateX(20%);
+}
