@@ -74,7 +74,7 @@ h6 {
 }
 
 .signup-container {
-	right: 0;
+	left: 0;
 	width: 50%;
 	z-index: 1;
 	opacity: 0;
@@ -196,4 +196,33 @@ h6 {
 .btn-overlay {
 	background-color: transparent;
 	border-color: hsl(0, 0%, 100%);
+}
+
+/* Animation */
+
+/* Move sign in to right */
+.right-panel-active .signin-container {
+	transform: translateX(100%);
+}
+
+/* Move overlay to left */
+.right-panel-active .overlay-container {
+	transform: translateX(-100%);
+}
+
+/* Bring sign up over sign in */
+.right-panel-active .signup-container {
+	transform: translateX(100%);
+	z-index: 5;
+	opacity: 1;
+}
+
+/* Move overlay back to right */
+.right-panel-active .overlay {
+	transform: translateX(50%);
+}
+
+/* Left overlay slide in from left */
+.right-panel-active .overlay-left {
+	transform: translateX(0%);
 }
