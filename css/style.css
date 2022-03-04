@@ -63,4 +63,68 @@ h6 {
 	width: 48rem;
 	max-width: 100%;
 	min-height: 30rem;
+	padding: 1rem;
+}
+
+/* Form */
+.form {
+	background: hsl(0, 0%, 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 3.125rem;
+	height: 100%;
+}
+
+.sns-links {
+	margin: 1.25rem 0;
+}
+
+.sns-link {
+	border: 1px solid hsl(0, 0%, 87%);
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 2.5rem;
+	width: 2.5rem;
+}
+
+.form-input {
+	background: hsl(0, 0%, 93%);
+	border: none;
+	padding: 0.75rem 0.9375rem;
+	margin: 0.5rem 0;
+	width: 100%;
+}
+
+.form-input::placeholder {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+	border-radius: 1.25rem;
+	border: 1px solid hsl(9, 100%, 58%);
+	background-color: hsl(9, 100%, 58%);
+	color: hsl(0, 0%, 100%);
+	font-size: 0.75rem;
+	font-weight: 800;
+	padding: 0.75rem 2.8125rem;
+	cursor: pointer;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+.btn:active {
+	transform: scale(0.95);
+}
+
+/* Overlay */
+.btn-overlay {
+	background-color: transparent;
+	border-color: hsl(0, 0%, 100%);
 }
