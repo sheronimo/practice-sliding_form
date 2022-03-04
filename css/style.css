@@ -10,7 +10,7 @@
 
 a {
 	text-decoration: none;
-	color: inherit;
+	color: hsl(0, 0%, 20%);
 }
 
 body {
@@ -32,4 +32,23 @@ h4,
 h5,
 h6 {
 	font-weight: 800;
+}
+
+/* Text Styling */
+
+.alt-text {
+	font-size: 0.75rem;
+}
+
+.overlay-desc {
+	font-size: 0.875rem;
+	line-height: 1.25;
+	letter-spacing: 0.5px;
+	margin: 1.25rem 0 1.875rem;
+}
+
+/* Forgot Link */
+.forgot-link {
+	font-size: 0.875rem;
+	margin: 1rem 0;
 }
